@@ -54,7 +54,7 @@ class User_Regist(QWidget):
         gender_layout.addWidget(female_radio)
 
         country_dropdown = QComboBox()  
-        country_dropdown.addItems(["Select Country","Indonesia", "Other"])
+        country_dropdown.addItems(["Indonesia", "Other"])
 
         form_layout.addRow("Full Name:", full_name_input)
         form_layout.addRow("Email:", email_input)
